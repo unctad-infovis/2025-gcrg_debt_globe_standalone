@@ -8,11 +8,10 @@ function Tooltip({
     const difference = Date.now() - time;
     if (difference < 200) {
       const url = window.location.href.includes('unctad.org')
-        ? `/world-of-debt/debt-at-a-glance?id=${data.id}`
-        : `https://unctad.org/world-of-debt/debt-at-a-glance?id=${
+        ? `https://unctad-infovis.github.io/2025-gcrg_debt_standalone/?id=${data.id}`
+        : `https://unctad-infovis.github.io/2025-gcrg_debt_standalone/?id=${
           data.id || data.properties.id
         }`;
-
       window.location = url;
     }
   };
