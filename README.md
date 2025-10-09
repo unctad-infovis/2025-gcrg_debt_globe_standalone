@@ -1,6 +1,6 @@
 # 2025-gcrg_debt_globe_standalone
 
-**Live demo** https://unctad-infovis.github.io/__PROJECT_NAME__/
+**Live demo** https://unctad-infovis.github.io/2025-gcrg_debt_globe_standalone/
 
 ## Rights of usage
 
