@@ -13,6 +13,32 @@
   height: 100vh;
   margin: 0 auto;
   width: 100%;
+  .qr_code_container {
+    background-color: #004987;
+    height: 135px;
+    padding: 5px;
+    margin: 0 0 0 40px;
+    color: #fff;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    .text {
+      padding: 0 20px;
+      text-align: center;
+      width: 100%;
+    }
+    .qrcode {
+      min-width: 125px;
+      width: 125px;
+      font-size: 0;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
   .title {
     color: #fff;
     width: 50vw;

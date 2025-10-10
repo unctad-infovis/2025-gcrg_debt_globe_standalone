@@ -36,6 +36,15 @@ function App() {
           </svg>
           It is time for reform
         </h4>
+        <div className="qr_code_container">
+          <div className="text">
+            Explore
+            {' '}
+            <br />
+            <strong>A World of Debt</strong>
+          </div>
+          <div className="qrcode"><img src="./assets/img/qrcode.png" alt="qrcode" /></div>
+        </div>
       </div>
       {data && <ThreeScene geoJSON={data || []} />}
       <noscript>Your browser does not support JavaScript!</noscript>
