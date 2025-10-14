@@ -41,7 +41,7 @@ function App() {
             Explore
             {' '}
             <br />
-            <strong>A World of Debt</strong>
+            <strong>A world of debt</strong>
           </div>
           <div className="qrcode"><img src="./assets/img/qrcode.png" alt="qrcode" /></div>
         </div>
