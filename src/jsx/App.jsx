@@ -29,7 +29,7 @@ function App() {
     <div className="app">
       <div className="title">
         <h2>A world of debt</h2>
-        <h3><a href="https://unctad-infovis.github.io/2025-gcrg_debt_globe_standalone/">Click to explore the data</a></h3>
+        <h3><a href="https://unctad-infovis.github.io/2025-gcrg_debt_standalone/">Click to explore the data</a></h3>
         <h4>
           <svg className="button-svg" id="Layer_1" fill="#FBAF17" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 365.5 365.5" style={{ height: '135px' }}>
             <path className="cls-1" d="M77.5,107.7l106.4,107.9,102.2-107v92.2l-102.3,117.8-106.4-110v-100.9Z" />
