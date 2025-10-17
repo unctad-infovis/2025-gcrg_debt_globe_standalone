@@ -50,16 +50,23 @@
     }
     h3 {
       color: #FBAF17;
-      font-size: 32px;
-      margin: 40px 0 20px 40px;
+      font-size: 18px;
+      position: absolute;
+      margin: 40px 0 20px calc(50% - 240px);
       a {
         background-color: #eb1f48;
-        border-radius: 20px;
+        border-radius: 50px;
         border: 0;
-        color :#fff;
+        width: 220px;
+        text-align: center;
+        color: #fff;
         text-decoration: none;
         font-weight: 100;
-        padding: 7px 30px;
+        padding: 15px 0;
+        display: inline-block;
+        strong {
+          font-weight: 900;
+        }
         &:hover {
           color: #000;
           text-decoration: none;
@@ -72,7 +79,6 @@
       font-size: 34.56px;
       font-weight: 400;
       margin: 0 0 20px 0;
-      max-width: 400px;
       svg {
         transform: rotate(270deg);
       }
